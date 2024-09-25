@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PORTAL ACADEMICO UPEU </title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dad72b;
+            color: #333;
+        }
+
+        /* Estilos del encabezado y la navegación */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        header nav ul li a:hover {
+            color: #4CAF50;
+        }
+
+        /* Sección de bienvenida - Color distintivo */
+        #inicio {
+            background-color: #e5501e;
+            /* Azul brillante */
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        #inicio h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        #inicio p {
+            font-size: 1.2em;
+        }
+
+        /* Sección de habilidades - Color distintivo */
+        #habilidades {
+            padding: 50px 20px;
+            background-color: #e566b2;
+            /* Rojo brillante */
+            text-align: center;
+        }
+
+        #habilidades h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .skill-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            min-width: 200px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .skill p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Sección de proyectos - Color distintivo */
+        #proyectos {
+            padding: 50px 20px;
+            background-color: #43a047;
+            /* Verde brillante */
+            text-align: center;
+        }
+
+        #proyectos h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .project-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            min-width: 200px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: #43a047;
+            border: 2px solid #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .project a:hover {
+            background-color: #388e3c;
+            color: white;
+        }
+
+        /* Sección de contacto - Color distintivo */
+        #contacto {
+            padding: 50px 20px;
+            background-color: #fdd835;
+            /* Amarillo brillante */
+            text-align: center;
+        }
+
+        #contacto h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        #contacto p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #contacto ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #contacto ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        #contacto ul li a {
+            color: #333;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        #contacto ul li a:hover {
+            color: #000;
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #4CAF50;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>BETTY NOEMI GONZALES AQUINO </h1>
+
+        <p>Hola, soy [ESTUDIANTE DE LA ESCUELA DE ADMINISTRACION ], un desarrollador apasionado por crear soluciones
+            innovadoras.</p>
+        <img src="NOEMI JII.jpeg" alt="Descripción de la imagen" style="max-width: 100%; height: auto;">
+        <nav>
+            <video width="600" controls>
+                <source src="mi_video.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+    </section>
+    </section>
+
+  
+    <section id="habilidades">
+        <h2>Mis Habilidades</h2>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/ofSkmkvpHuc"
+        title="SOLO EL COMIENZO  - VOCAL LIVRE | Especial Sueña en grande" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="skill-container">
+
+            <div class="skill">
+                <h3>ALEGRE</h3>
+                <p>SIEMPRE SONRIO </p>
+            </div>
+            <div class="skill">
+                <h3>ORADORA</h3>
+                <p>ME GUSTA HABLAR </p>
+            </div>
+            <div class="skill">
+                <h3>MIS COLORES </h3>
+                <p> ROJO ROSADO </p>
+            </div>
+            <div class="skill">
+                <h3>MIS ANIMALES FAVORITOS </h3>
+                <p>GATO Y PERRO </p>
+            </div>
+            <div class="skill">
+                <h3>CANCIONE FAVORITAS </h3>
+                <p>LATINOAMERICANAS </p>
+            </div>
+            <img src="PERRITO.jpg" alt="Descripción de la imagen" style="max-width: 100%; height: auto;">
+        <nav>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Recientes</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del Proyecto 1. Puedes agregar más detalles sobre el objetivo y los resultados.</p>
+                <a href="#">Ver Proyecto</a>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del Proyecto 2. Explica el propósito y la tecnología utilizada.</p>
+                <a href="#">Ver Proyecto</a>
+            </div>
+            <div class="project">
+                <h3>Proyecto 3</h3>
+                <p>Descripción del Proyecto 3. Indica los retos superados y los logros conseguidos.</p>
+                <a href="#">Ver Proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas comunicarte conmigo, puedes enviarme un correo a <a
+                href="mailto:miemail@example.com">miemail@example.com</a>.</p>
+        <p>O también puedes encontrarme en mis redes sociales:</p>
+        <ul>
+            <li><a href="https://linkedin.com/in/tu-usuario">LinkedIn</a></li>
+            <li><a href="https://github.com/tu-usuario">GitHub</a></li>
+            <li><a href="https://twitter.com/tu-usuario">Twitter</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
